@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "VB-B11A-ETL-DEV"
+		},
+		"LS_SFTP_ADLS_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SNWFLK_PARQUET_password": {
+			"value": ""
+		},
+		"LS_SQL_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServerTable_password": {
+			"value": ""
+		},
+		"LS_SFTP_ADLS_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsstotragesourcesftp01.dfs.core.windows.net/"
+		},
+		"LS_SFTP_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsvbstoragesesource001.dfs.core.windows.net/"
+		},
+		"LS_SINK_SNOWFLAKE_PARQUET_sasUri": {
+			"value": ""
+		},
+		"LS_SNWFLK_PARQUET_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"LS_SQL_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsvbstoragesesource001.dfs.core.windows.net/"
+		},
+		"LS_SqlServerTable_properties_typeProperties_server": {
+			"value": "SWAGGY\\SQLEXPRESS"
+		},
+		"LS_SqlServerTable_properties_typeProperties_database": {
+			"value": "vbfinalproject"
+		},
+		"LS_SqlServerTable_properties_typeProperties_userName": {
+			"value": "adfadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
